@@ -9,7 +9,7 @@ Works with Unity 2019.2.9f1
 
 Functions:
 
-Play video on click (works on Windows OS and IOS, but cannot go back to AR camera after video is done)
+Play video on click (works on Windows OS and IOS, but IOS cannot go back to AR camera after video is done)
 
 Show PDF on click (currently only works on Windows OS)
 
