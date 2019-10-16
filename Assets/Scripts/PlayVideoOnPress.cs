@@ -21,6 +21,8 @@ public class PlayVideoOnPress : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        PCVideoPlayer.loopPointReached += EndPointReached;
+
         if (Application.platform != RuntimePlatform.Android && Application.platform != RuntimePlatform.IPhonePlayer)
         {
             UsingPC = true;
@@ -55,21 +57,27 @@ public class PlayVideoOnPress : MonoBehaviour {
             //Move Backward
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                PCVideoPlayer.time -= 1f;
+                PCVideoPlayer.time -= 5f;
             }
 
             //Move Forward
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                PCVideoPlayer.time += 1f;
+                PCVideoPlayer.time += 5f;
             }
 
-            //Move Forward
+            //Exit
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 PCVideoPlayer.Stop();
             }
         }
+    }
+
+    public void EndPointReached(UnityEngine.Video.VideoPlayer vp)
+    {
+        VuforiaBehaviour.Instance.enabled = true;
+        usingPCVideoPlayer = false;
     }
 
     private void OnMouseDown()
