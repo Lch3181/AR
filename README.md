@@ -13,6 +13,6 @@ Play video on click (works on Windows OS and IOS, but cannot go back to AR camer
 
 Show PDF on click (currently only works on Windows OS)
 
-interact with 3D objects
+interact with 3D objects (only tested on Windows OS and IOS)
 
-3D animation
+3D animation (only tested on Windows OS and IOS)
