@@ -10,7 +10,7 @@ PlayerSettings:
   AndroidEnableSustainedPerformanceMode: 0
   defaultScreenOrientation: 4
   targetDevice: 2
-  useOnDemandResources: 1
+  useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: AR
@@ -75,8 +75,8 @@ PlayerSettings:
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
   deferSystemGesturesMode: 0
-  hideHomeButton: 0
-  submitAnalytics: 0
+  hideHomeButton: 1
+  submitAnalytics: 1
   usePlayerLog: 1
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
@@ -164,7 +164,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    iPhone: com.Mitchell.AR
+    Standalone: com.SNHU.AR
+    iPhone: com.SNHU.AR
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -187,7 +188,7 @@ PlayerSettings:
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 9.0
   uIPrerenderedIcon: 0
-  uIRequiresPersistentWiFi: 1
+  uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
@@ -424,9 +425,9 @@ PlayerSettings:
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
-  enableInternalProfiler: 1
+  enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
-  enableCrashReportAPI: 1
+  enableCrashReportAPI: 0
   cameraUsageDescription: Required for augmented reality support.
   locationUsageDescription: Required for augmented reality support.
   microphoneUsageDescription: Required for augmented reality support.

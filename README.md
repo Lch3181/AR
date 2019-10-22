@@ -5,11 +5,13 @@ A project me and Mike https://github.com/MikeSemicolonD did for SNHU during the 
 
 The prototype is compatible with iOS, Android and Windows.
 
-Works with Unity 2019.2.9f1
+Works with Unity 2019.2.0f1
 
 Functions:
 
 Play video on click (works on Windows OS and IOS, but IOS cannot go back to AR camera after video is done)
+
+Windows OS: Esc(Exit) Arrow Keys(Foward, Backward) Space(Pause)
 
 Show PDF on click (currently only works on Windows OS)
 
